@@ -1,2 +1,2 @@
 # CompetitiveCoding
-All Algorithms, Data Structures, Logic, Library uses and Submissions.
+All submissons, Algorithm and Data Structures Implementations.
