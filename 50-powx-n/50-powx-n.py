@@ -8,8 +8,6 @@ class Solution:
         if n == 0:
             return 1
         
-        ans = 0
-        
         if n%2 == 0:
             ans = self.pow(x, abs(n)/2)
             ans *= ans
@@ -18,4 +16,6 @@ class Solution:
             ans = x*ans*ans
             
         return ans if n > 0 else 1/ans
+    
+    
     
