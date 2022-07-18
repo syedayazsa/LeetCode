@@ -3,7 +3,7 @@ class Solution:
         
         i, j = 0, len(matrix[0]) - 1
         
-        while (i >=0 and i < len(matrix)) and (j >= 0 and j < len(matrix[0])):
+        while i < len(matrix) and j >= 0:
             if matrix[i][j] == target:
                 return True
             elif matrix[i][j] > target:
@@ -12,3 +12,6 @@ class Solution:
                 i += 1
                 
         return False
+    
+    
+    
